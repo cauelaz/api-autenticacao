@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+psycopg2-binary
+firebirdsql
+python-dotenv
+fastapi[standard]
+pydantic
+pydantic-settings
+passlib
+#json
