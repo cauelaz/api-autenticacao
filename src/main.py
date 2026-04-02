@@ -36,7 +36,7 @@ def check_password(
     sql = f"""select us.usuario,us.senha
             from usuarios_servidor us
             left join usuarios u on u.usuario_servidor = us.codigo
-            where u.nome = 'teste_caue' and u.senha_crip = 'MjAyY2I5NjJhYzU5MDc1Yjk2NGIwNzE1MmQyMzRiNzAwNTAzMjA3N3Rlc3RlX2NhdWU='
+            where u.nome = 'TESTE_CAUE' and u.senha_crip = 'MjAyY2I5NjJhYzU5MDc1Yjk2NGIwNzE1MmQyMzRiNzAwNTAzMjA3N1RFU1RFX0NBVUU='
             """
     result = client_conn.query(sql)
     print(result)
